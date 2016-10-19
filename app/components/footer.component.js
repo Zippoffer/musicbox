@@ -10,7 +10,7 @@ class Footer extends React.Component {
   render(){
     return(
       <div className="footer">
-        <p>Love from &nbsp; <img src="./public/image/logo.png" className="logo"/>
+        <p>Love from &nbsp; <img src="./public/image/geddes.png" className="logo"/>
         &nbsp; &nbsp; & &nbsp; &nbsp;<img src="./public/image/soundcloud.png" className="soundcloud"/></p>
       </div>
     )
