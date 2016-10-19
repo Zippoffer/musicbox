@@ -128,7 +128,7 @@ class AppContainer extends React.Component {
    }
 
   render () {
-    const scotchStyle = {
+    const musicboxstyle = {
       width: '500px',
       height: '500px',
       backgroundImage: `linear-gradient(
@@ -137,7 +137,7 @@ class AppContainer extends React.Component {
     ),   url(${this.xlArtwork(this.state.track.artwork_url)})`
     }
     return (
-      <div className="scotch_music" style={scotchStyle}>
+      <div className="scotch_music" style={musicboxstyle}>
         <Search
           clientId={this.state.client_id}
           autoCompleteValue={this.state.autoCompleteValue}
