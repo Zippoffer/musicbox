@@ -130,7 +130,7 @@ class AppContainer extends React.Component {
   render () {
     const musicboxstyle = {
       width: '500px',
-      height: '500px',
+      height: '480px',
       backgroundImage: `linear-gradient(
       rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
